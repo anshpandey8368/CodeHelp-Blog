@@ -1,0 +1,34 @@
+.header-wrapper {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-wrapper h1 {
+    margin: 0;
+}
+
+/* Content.css */
+.content-wrapper {
+    padding: 20px;
+}
+
+.main-page {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.main-page > div {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.main-page p {
+    margin: 0;
+}
+
+.main-page span {
+    margin-right: 5px;
+}
